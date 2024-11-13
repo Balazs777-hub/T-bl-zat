@@ -1,0 +1,38 @@
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table>thead>tr {
+    border: 2px solid wheat;
+}
+
+th {
+    background-color: darkkhaki;
+    color: coral;
+}
+
+tr:nth-child(odd) {
+    color: burlywood;
+    background-color: darksalmon;
+}
+
+.osszevont {
+    text-align: center;
+    background-color: bisque;
+}
+
+.osszevont2 {
+    text-align: center;
+    background-color: bisque;
+}
+
+.reszponzivtabla {
+    width: 100%;
+    overflow-x: scroll;
+}
